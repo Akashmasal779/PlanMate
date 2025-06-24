@@ -1,2 +1,0 @@
-# planmate
-plan your trips 
