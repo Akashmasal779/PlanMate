@@ -5,8 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>About – PlanMate</title>
   <link rel="stylesheet" href="style.css" />
-   <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
-
   <style>
     main {
       max-width: 900px;
@@ -63,13 +61,14 @@
 </head>
 <body>
 
- <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+  <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
 <nav class="navbar" id="navbar">
   <a class="nav-btn" href="index.html">Home</a>
   <a class="nav-btn" href="about.html">About</a>
   <a class="nav-btn" href="services.html">Services</a>
   <a class="nav-btn" href="contact.html">Contact</a>
 </nav>
+
 <script>
   function toggleMenu() {
     const nav = document.getElementById('navbar');
