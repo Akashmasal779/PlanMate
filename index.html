@@ -8,13 +8,13 @@
 </head>
 <body>
 
-  <!-- NAVIGATION -->
-  <nav class="navbar">
-    <a class="nav-btn" href="index.html">Home</a>
-    <a class="nav-btn" href="about.html">About</a>
-    <a class="nav-btn" href="contact.html">Contact</a>
-    <a class="nav-btn" href="help.html">Help</a>
-  </nav>
+ <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+<nav class="navbar" id="navbar">
+  <a class="nav-btn" href="index.html">Home</a>
+  <a class="nav-btn" href="about.html">About</a>
+  <a class="nav-btn" href="services.html">Services</a>
+  <a class="nav-btn" href="contact.html">Contact</a>
+</nav>
 
   <!-- HEADER -->
   <header>
@@ -52,6 +52,12 @@
       <p>Elite experiences with luxury stays and transport.</p>
     </div>
   </div>
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById('navbar');
+    nav.classList.toggle('active');
+  }
+</script>
 
   <!-- Nature & Adventure -->
   <h2 style="margin-top:40px; text-align:center; color:#ee6019;">Nature & Adventure</h2>
